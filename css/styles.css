@@ -172,7 +172,7 @@ p::selection {
 	margin-bottom: 245px;
 }
 
-.main-info-line {
+.main-info__line {
 	width: 80px;
 	height: 3px;
 	background-color: #ff7500;
@@ -180,7 +180,7 @@ p::selection {
 	margin-bottom: 24px;
 }
 
-.main-info-title {
+.main-info__title {
 	margin-top: 0;
 	margin-bottom: 72px;
 	font-weight: 700;
@@ -191,7 +191,7 @@ p::selection {
 	width: 100%;
 }
 
-.main-info-list {
+.main-info__list {
 	display: flex;
 	list-style: none;
 	justify-content: space-between;
@@ -199,7 +199,7 @@ p::selection {
 	padding: 0;
 }
 
-.main-info-item {
+.main-info__item {
 	min-width: 340px;
 	width: 100%;
 }
@@ -208,7 +208,7 @@ p::selection {
 	margin-right: 40px;
 }
 
-.main-info-icon {
+.main-info__icon {
 	width: 100px;
 	height: 100px;
 	background-color: rgba(255, 117, 0, 0.2);
@@ -219,7 +219,7 @@ p::selection {
 	margin-bottom: 32px;
 }
 
-.main-info-item-title {
+.main-info-item__title {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 1.2;
@@ -228,7 +228,7 @@ p::selection {
 	margin-bottom: 12px;
 }
 
-.main-info-item-text {
+.main-info-item__text {
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -249,12 +249,12 @@ p::selection {
 	justify-content: space-between;
 }
 
-.promo-info {
+.promo__info {
 	min-width: 440px;
 	width: 100%;
 }
 
-.promo-heading {
+.promo__heading {
 	margin-top: 0;
 	margin-bottom: 24px;
 	font-weight: 700;
@@ -263,22 +263,22 @@ p::selection {
 	letter-spacing: 0.5px;
 }
 
-.promo-text {
+.promo__text {
 	margin-top: 0;
 	margin-bottom: 12px;
 }
 
-.promo-text2 {
+.promo__text2 {
 	margin-top: 0;
 	margin-bottom: 24px;
 }
 
-.promo-span {
+.promo__span {
 	color: #ff7500;
 	font-weight: 700;
 }
 
-.promo-img-wrapper img {
+.promo-img__wrapper img {
 	width: 440px;
 	height: 440px;
 	border-radius: 12px;
@@ -290,13 +290,13 @@ p::selection {
 	padding-bottom: 56px;
 }
 
-.site-footer-top {
+.site-footer__top {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.site-footer-top-list {
+.site-footer__top-list {
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -309,7 +309,7 @@ p::selection {
 	margin-right: 16px;
 }
 
-.site-footer-top-link {
+.site-footer__top-link {
 	color: #252420;
 	display: flex;
 	align-items: center;
@@ -320,7 +320,7 @@ p::selection {
 	color: #ff7500;
 }
 
-.site-footer-top-link svg {
+.site-footer-top__link svg {
 	transition: all 0.4s ease;
 }
 
